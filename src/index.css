@@ -68,7 +68,9 @@ body {
         @apply fixed z-50 w-full;
 
         div {
-            @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto;
+            @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 container mx-auto;
+            padding-left: 4rem;
+            padding-right: 4rem;
         }
 
         p {
@@ -148,7 +150,9 @@ body {
         }
 
         .list {
-            @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5;
+            @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 pb-20;
+            padding-left: 4rem;
+            padding-right: 4rem;
 
             .popular {
                 @apply space-y-8 w-full md:w-fit;

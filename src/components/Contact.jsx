@@ -38,7 +38,7 @@ const Contact = () => {
 		<h2>Où Nous Trouver</h2>
 		
 		<div>
-		 <h3>Visitez Notre Bar</h3>
+		 <h3>Visitez Notre  restaurant</h3>
 		 <p>Casablanca, Maroc</p>
 		</div>
 		

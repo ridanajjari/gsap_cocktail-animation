@@ -30,7 +30,7 @@ import gsap from 'gsap'
         <div>
             <a href='home' className="flex items-center gap-2" > 
                 <img  src='/images/macocktail.jpg' alt="logo"/>
-            <p>Cocktails pour toi</p>
+            <p>Food Always for You</p>
             </a>
 
             <ul>

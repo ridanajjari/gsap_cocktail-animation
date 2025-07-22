@@ -29,16 +29,16 @@ const About = () => {
       <div className="mb-16 md:px-0 px-5">
         <div className="content">
           <div className="md:col-span-8">
-            <p className="badge">Meilleurs Cocktails</p>
+            <p className="badge">Authentic Moroccan Cuisine</p>
             <h2>
-              Là où chaque détail compte <span className="text-white">-</span>
-              du pilon à la garniture
+              Where tradition meets flavor <span className="text-white">-</span>
+              from spice to soul
             </h2>
           </div>
 
           <div className="sub-content">
             <p>
-              Chaque cocktail que nous servons reflète notre obsession du détail — du premier coup de pilon à la touche finale de garniture. Ce soin transforme une boisson simple en une expérience inoubliable.
+              Every tajine we craft reflects our dedication to authentic Moroccan tradition — from hand-selected spices to slow-cooked perfection. This care transforms simple ingredients into an unforgettable culinary journey through Morocco.
             </p>
 
             <div>
@@ -46,7 +46,7 @@ const About = () => {
                 <span>4.5</span>/5
               </p>
               <p className="text-sm text-white-100">
-                Plus de 12 000 clients satisfaits
+                Over 12,000 satisfied food lovers
               </p>
             </div>
           </div>

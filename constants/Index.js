@@ -1,15 +1,15 @@
 const navLinks = [
 	{
 	  id: "cocktails",
-	  title: "Cocktails",
+	  title: "Tajine",
 	},
 	{
 	  id: "about",
-	  title: "À Propos",
+	  title: "About",
 	},
 	{
 	  id: "work",
-	  title: "L'Art",
+	  title: "Work",
 	},
 	{
 	  id: "contact",
@@ -19,55 +19,55 @@ const navLinks = [
   
   const cocktailLists = [
 	{
-	  name: "Château Margaux",
-	  country: "FR",
-	  detail: "Bouteille",
-	  price: "10 £",
+		name: "Chicken Tagine with Preserved Lemon",
+		country: "MA",
+		detail: "Traditional dish",
+		price: "45 £",
 	},
 	{
-	  name: "Domaine de la Romanée-Conti",
-	  country: "FR",
-	  detail: "Bouteille",
-	  price: "49 £",
+	  name: "Lamb Tagine with Prunes",
+	  country: "MA",
+	  detail: "Slow-cooked dish",
+	  price: "55 £",
 	},
 	{
-	  name: "Bière Blonde Artisanale",
-	  country: "BE",
-	  detail: "750 ml",
-	  price: "20 £",
+	  name: "Kefta Tagine with Eggs",
+	  country: "MA",
+	  detail: "Meatball stew",
+	  price: "40 £",
 	},
 	{
-	  name: "Guinness Irlandaise",
-	  country: "IE",
-	  detail: "600 ml",
-	  price: "29 £",
+	  name: "Fish Tagine with Chermoula",
+	  country: "MA",
+	  detail: "Seafood specialty",
+	  price: "50 £",
 	},
   ];
   
   const mockTailLists = [
 	{
-	  name: "Éclat Tropical",
-	  country: "FR",
-	  detail: "Bouteille",
-	  price: "10 £",
+		name: "Vegetable Tagine",
+		country: "MA",
+		detail: "Vegetarian dish",
+		price: "35 £",
 	},
 	{
-	  name: "Menthe aux Fruits de la Passion",
-	  country: "FR",
-	  detail: "Bouteille",
-	  price: "49 £",
+	  name: "Veal Tagine with Artichokes",
+	  country: "MA",
+	  detail: "Refined preparation",
+	  price: "52 £",
 	},
 	{
-	  name: "Lueur d’Agrumes",
-	  country: "BE",
-	  detail: "750 ml",
-	  price: "20 £",
+	  name: "Chicken Tagine with Almonds",
+	  country: "MA",
+	  detail: "Sweet and savory dish",
+	  price: "48 £",
 	},
 	{
-	  name: "Fleur de Lavande Pétillante",
-	  country: "FR",
-	  detail: "600 ml",
-	  price: "29 £",
+	  name: "Squid Tagine with Vegetables",
+	  country: "MA",
+	  detail: "Coastal specialty",
+	  price: "53 £",
 	},
   ];
   
@@ -88,17 +88,17 @@ const profileLists = [
 ];
 
 const featureLists = [
-	"Mélanges parfaitement équilibrés",
-	"Garnis à la perfection",
-	"Toujours servis glacés",
-	"Secoués et mélangés avec expertise",
+	"Chicken Tajine - Tender chicken with preserved lemons and olives",
+	"Lamb Tajine - Slow-cooked lamb with apricots and almonds",
+	"Vegetable Tajine - Seasonal vegetables with aromatic spices",
+	"Fish Tajine - Fresh fish with chermoula and vegetables",
   ];
   
   const goodLists = [
-	"Ingrédients soigneusement sélectionnés",
-	"Techniques signatures",
-	"L’art du barman en action",
-	"Saveurs fraîchement pilées",
+	"Beef Tajine - Rich beef with prunes and cinnamon",
+	"Kefta Tajine - Spiced meatballs with eggs and tomatoes",
+	"Seafood Tajine - Mixed seafood with saffron and herbs",
+	"Sweet Tajine - Traditional dessert with dates and nuts",
   ];
   
 
@@ -112,11 +112,12 @@ const storeInfo = {
 };
 
 const openingHours = [
- { day: "Lun–Jeu", time: "11:00am – 12am" },
- { day: "Ven", time: "11:00am – 2am" },
- { day: "Sam", time: "9:00am – 2am" },
- { day: "Dim", time: "9:00am – 1am" },
-];
+	{ day: "Mon–Thu", time: "11:00am – 12am" },
+	{ day: "Fri", time: "11:00am – 2am" },
+	{ day: "Sat", time: "9:00am – 2am" },
+	{ day: "Sun", time: "9:00am – 1am" },
+  ]
+  ;
 
 const socials = [
  
@@ -129,37 +130,41 @@ const socials = [
 
 const allCocktails = [
 	{
-	  id: 1,
-	  name: "Mojito Classique",
-	  image: "/images/drink1.png",
-	  title: "Ingrédients Simples, Saveur Audacieuse",
-	  description:
-		"Préparée avec de la tequila, du jus de citron vert et de la liqueur d’orange, la Margarita est facile à réaliser et pleine de caractère. Ajoutez un rebord salé pour une boisson parfaite lors des soirées d'été.",
-	},
-	{
-	  id: 2,
-	  name: "Mojito Framboise",
-	  image: "/images/drink2.png",
-	  title: "Un Classique Pétillant Qui Ne Déçoit Jamais",
-	  description:
-		"La Margarita est un classique qui équilibre l’acidité du citron vert, la douceur de la tequila et une touche sucrée. Secouée, glacée ou sur glace — elle est toujours fraîche et désaltérante.",
-	},
-	{
-	  id: 3,
-	  name: "Brise Violette",
-	  image: "/images/drink3.png",
-	  title: "Ingrédients Simples, Saveur Audacieuse",
-	  description:
-		"Préparée avec de la tequila, du jus de citron vert et de la liqueur d’orange, la Margarita est facile à réaliser et pleine de caractère. Ajoutez un rebord salé pour une boisson parfaite lors des soirées d'été.",
-	},
-	{
-	  id: 4,
-	  name: "Mojito Curaçao",
-	  image: "/images/drink4.png",
-	  title: "Préparé avec Soin, Servi avec Amour",
-	  description:
-		"Chaque cocktail est préparé avec des ingrédients frais et une passion pour la perfection dans chaque versement, que ce soit pour célébrer ou simplement se détendre.",
-	},
+		id: 1,
+		name: "Chicken Tajine",
+		image: "/images/drink1.png",
+		title: "Warm Spices, Authentic Taste",
+		description:
+		  "Made with tender chicken, green olives, preserved lemon, and Moroccan spices, this tajine is slow-cooked to bring out deep, comforting flavors in every bite.",
+	  }
+	  ,
+	  {
+		id: 2,
+		name: "Duck and Apricot Tajine",
+		image: "/images/drink2.png",
+		title: "Sweet Notes, Rich Moroccan Flavor",
+		description:
+		  "Slow-cooked duck with dried apricots, warm spices, and a hint of honey — this tajine blends sweet and savory in a perfect balance for a truly comforting Moroccan dish.",
+	  }
+	  ,
+	  {
+		id: 3,
+		name: "Tajine with Couscous",
+		image: "/images/drink3.png",
+		title: "Simple Ingredients, Bold Tradition",
+		description:
+		  "A hearty blend of slow-cooked vegetables, tender meat, and rich spices served over fluffy couscous. This Moroccan classic brings warmth, comfort, and authentic flavor to every plate.",
+	  }
+	  ,
+	  {
+		id: 4,
+		name: "Meat Tajine",
+		image: "/images/drink4.png",
+		title: "Slow-Cooked with Care, Served with Love",
+		description:
+		  "Tender beef or lamb simmered with Moroccan spices, onions, and herbs — this traditional tajine is rich, hearty, and full of flavor in every bite.",
+	  }
+	  ,
   ];
   
 export {

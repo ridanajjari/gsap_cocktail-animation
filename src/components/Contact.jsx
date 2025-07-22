@@ -35,30 +35,32 @@ const Contact = () => {
 	 <img src="/images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" />
 	 
 	 <div className="content">
-		<h2>Où Nous Trouver</h2>
-		
-		<div>
-		 <h3>Visitez Notre  restaurant</h3>
-		 <p>Casablanca, Maroc</p>
-		</div>
-		
-		<div>
-		 <h3>Contactez-Nous</h3>
-		 <p>+212 06 12 12 12</p>
-		 <p>najjaririda6@gmail.com</p>
-		</div>
-		
-		<div>
-		 <h3>Ouvert Tous Les Jours</h3>
-		 {openingHours.map((time) => (
-			<p key={time.day}>
-			 {time.day} : {time.time}
-			</p>
-		 ))}
-		</div>
-		
-		<div>
-		 <h3>Réseaux Sociaux</h3>
+  <h2>Where to Find Us</h2>
+  
+  <div>
+    <h3>Visit Our Restaurant</h3>
+    <p>Casablanca, Morocco</p>
+  </div>
+  
+  <div>
+    <h3>Contact Us</h3>
+    <p>+212 06 12 12 12</p>
+    <p>Najjaririda6@gmail.com</p>
+  </div>
+  
+  <div>
+    <h3>Open Every Day</h3>
+    {openingHours.map((time) => (
+      <p key={time.day}>
+        {time.day} : {time.time}
+      </p>
+    ))}
+  </div>
+  
+  <div>
+    <h3>Social Media</h3>
+  
+
 		 
 		 <div className="flex-center gap-5">
 			{socials.map((social) => (

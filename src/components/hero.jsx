@@ -73,7 +73,7 @@ const Hero = () => {
  return (
 	<>
 	 <section id="hero" className="noisy">
-		<h1 className="title">MOJITO</h1>
+		<h1 className="title">TAJINO</h1>
 		
 		<img
 		 src="/images/hero-left-leaf.png"
@@ -91,18 +91,18 @@ const Hero = () => {
 		 
 		 <div className="content">
 			<div className="space-y-5 hidden md:block">
-			 <p>Cool. Crisp. Classic.</p>
-			 <p className="subtitle">
-				Sip the Spirit <br /> of Summer
-			 </p>
-			</div>
-			
-			<div className="view-cocktails">
-			 <p className="subtitle">
-				Every cocktail on our menu is a blend of premium ingredients,
-				creative flair, and timeless recipes — designed to delight your
-				senses.
-			 </p>
+			<p>Warm. Flavorful. Timeless.</p>
+<p className="subtitle">
+  Taste the Heart <br /> of Morocco
+</p>
+</div>
+
+<div className="view-cocktails">
+  <p className="subtitle">
+    Every tajine is slow-cooked with love — tender chicken, 
+    rich spices, olives, and lemon — all brought together 
+    in one delicious Moroccan experience.
+  </p>
 			 <a href="#cocktails">View cocktails</a>
 			</div>
 		 </div>
@@ -115,7 +115,7 @@ const Hero = () => {
 		 muted
 		 playsInline
 		 preload="auto"
-		 src="/videos/output.mp4"
+		 src="/videos/input 1.mp4"
 		/>
 	 </div>
 	</>
